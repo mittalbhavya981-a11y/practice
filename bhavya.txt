@@ -1,4 +1,73 @@
 Hi My Name is Bhavya.
 Currently I am pursuing Btech CSE.
 I am learning git.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .container {
+            background: white;
+            width: 400px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: darkgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to HTML</h1>
+
+        <p>This is my first HTML webpage.</p>
+
+        <img src="https://via.placeholder.com/250"
+             alt="Sample Image">
+
+        <br><br>
+
+        <button onclick="showMessage()">Click Me</button>
+
+        <p id="demo"></p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("demo").innerHTML =
+                "🎉 Hello Bhavya! Welcome to HTML.";
+        }
+    </script>
+
+</body>
+</html>
 
